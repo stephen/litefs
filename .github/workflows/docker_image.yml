@@ -38,7 +38,7 @@ jobs:
       - id: meta
         uses: docker/metadata-action@v4
         with:
-          images: flyio/litefs
+          images: stpnw/litefs
           tags: |
             type=ref,event=branch
             type=ref,event=pr
